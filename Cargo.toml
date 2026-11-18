@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-acquisitions-kernel"
+name = "sigmaos-arch-shader-acquisitions-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-acquisitions-kernel component - Inspired by Arch Linux and Debian"
+description = "Acquisitions shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-acquisitions-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_acquisitions_kernel"
+path = "src/lib.rs"
